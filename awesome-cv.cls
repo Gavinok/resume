@@ -308,15 +308,15 @@
 \newcommand*{\headersocialstyle}[1]{{\fontsize{9pt}{1em}\headersocialfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{18pt}{1em}\headerfont\color{blue} #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{14pt}{1em}\headerfont\color{blue} #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\sectionsubheaderfont\bfseries\color{darktext}\MakeUppercase{#1} }}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\sectionsubheaderfont\itshape\color{darktext} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{12pt}{1em}\sectionsubheaderfont\itshape\color{darktext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{11pt}{1em}\sectionsubheaderfont\itshape\color{darktext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{11pt}{1em}\sectionsubheaderfont\itshape\slshape\color{darktext} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{11pt}{1.3em}\bodyfont\upshape\color{text} #1}}
+\newcommand*{\descriptionstyle}[1]{{\fontsize{12pt}{1.3em}\bodyfont\upshape\color{text} #1}}
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{11pt}\bodyfont\mdseries\color{graytext} #1}}

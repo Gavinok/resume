@@ -18,7 +18,7 @@
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Themes: Awesome-CV
-\documentclass[11pt, letterpaper]{awesome-cv-cover-letter}
+\documentclass[11pt, letterpaper]{awesome-cv}
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
@@ -60,22 +60,13 @@
 \PHONE
 %%% Social
 \EMAIL
-% \GITHUB
 % \homepage{oriol.codes}
+\GITHUB
 % \linkedin{oriolmirosa}
 % \twitter{@oriolcodes}
 %%% Optionals
 % \position{Data Scientist}
 
-\letterdate{\today}
-\recipientfirstname{Hiring}
-\recipientlastname{Manager}
-\recipientaddress{Company Name \\
-                  Address Line \#1 \\
-                  Address Line \#2}
-% \lettertitle{}
-\letteropening{Dear Hiring }
-\letterclosing{Yours sincerely,}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
@@ -83,23 +74,21 @@
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
   {\today}
-  {\FOOTERNAME ~~~·~~~Cover Letter}
+  {\FOOTERNAME~~~·~~~Résumé}
   {\thepage}
 
 \begin{document}
 
 %%% Make a header for CV with personal data
 \makecvheader
-
-\makelettertitle
+\vspace{-4mm}
 %%% Import contents
 % \import{\sectiondir}{aboutme.tex}
-% \import{\sectiondir}{experience.tex}
-% \import{\sectiondir}{skills.tex}
-% \import{\sectiondir}{education.tex}
-% \import{\sectiondir}{honors.tex}
-\import{\sectiondir}{cover.tex}
-
-\makeletterclosing
-
+\import{\sectiondir}{coachingexperience.tex}
+\import{\sectiondir}{skills.tex}
+\import{\sectiondir}{education.tex}
+\begin{center}
+  \descriptionstyle{Padding has changed my life and all I want is to give kids the same opportunities}
+\end{center}
+\import{\sectiondir}{references.tex}
 \end{document}

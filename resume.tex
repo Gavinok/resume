@@ -53,16 +53,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\import{./}{global.tex}
 %%% Essentials
-\name{Oriol}{Mirosa}
-\address{Atlanta, GA}
-\mobile{(608) 556-1174}
+\NAME
+\ADDRESS
+\PHONE
 %%% Social
-\email{oriol@oriol.codes}
-\homepage{oriol.codes}
-\github{oriolmirosa}
-\linkedin{oriolmirosa}
-\twitter{@oriolcodes}
+\EMAIL
+% \homepage{oriol.codes}
+\GITHUB
+% \linkedin{oriolmirosa}
+% \twitter{@oriolcodes}
 %%% Optionals
 % \position{Data Scientist}
 
@@ -73,7 +74,7 @@
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
   {\today}
-  {Oriol Mirosa~~~·~~~Résumé}
+  {\FOOTERNAME~~~·~~~Résumé}
   {\thepage}
 
 \begin{document}
@@ -83,10 +84,15 @@
 \vspace{-4mm}
 %%% Import contents
 % \import{\sectiondir}{aboutme.tex}
-\import{\sectiondir}{experience.tex}
-\import{\sectiondir}{skills.tex}
 \import{\sectiondir}{education.tex}
-\begin{center}
-  \descriptionstyle{I have lived in 7 countries and I have felt as much at home in all of them as in my native Barcelona}
-\end{center}
+\import{\sectiondir}{completed-cources.tex}
+\import{\sectiondir}{technical.tex}
+\import{\sectiondir}{projects.tex}
+\import{\sectiondir}{experience.tex}
+\pagebreak
+\import{\sectiondir}{extracurricular.tex}
+\import{\sectiondir}{honors.tex}
+% \import{\sectiondir}{coachingexperience.tex}
+\import{\sectiondir}{references.tex}
+% \import{\sectiondir}{skills.tex}
 \end{document}
